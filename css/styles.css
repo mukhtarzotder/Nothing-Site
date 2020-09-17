@@ -1,0 +1,57 @@
+/*********************Tag Selectiors*********/
+h1 {
+  background-color: aqua;
+  color: rgb(82, 221, 221);
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+
+img:hover {
+  background-color: red;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 5px;
+  width: 60px;
+}
+p{
+  color: darkblue;
+  font-style: italic;
+}
+body{
+  background-color: rgb(178, 220, 246);
+}
+/************Class Selectors************/
+.bacon {
+  background-color: lightblue;
+  border-radius: 30px;
+  padding-right: 20px;
+}
+.broccoli {
+  background-color: lightgreen;
+  padding-top: 22px;
+  padding-left: 20px;
+}
+.circular {
+  border-radius: 100%;
+}
+p:hover {
+  background-color: aquamarine;
+  font-size: 20.2px;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: teal;
+}
+/***********Id Selectors****************/
+#heading_1:hover {
+  font-size: 500%;
+}
+#horizontal {
+  border-style: hidden;
+  border-bottom: dotted;
+  border-width: 5px;
+  width: 60px;
+}
